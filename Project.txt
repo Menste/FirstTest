@@ -1,0 +1,11 @@
+Movement of character = transform.forward like an "addForce". (change physics material for gorund)
+Character can move on Input Axis (it's work with mobile and keybioard). I've closed my application thinking about PC
+Geometric forms used like 3dModels. (I can change everything at the end of the project with HDRP and high polygon 3d models.
+Enemies are spawned from 3 different points and follow the character
+All floats are publics. Everyone can change the values from the inspector menu
+On collision with main character:
+- time.timescale = 0
+- enalbe menu options
+- gameover (if enemy)
+- win (if end track)
+Automatic shooting every 0.75 seconds. Player can aim with mouse
